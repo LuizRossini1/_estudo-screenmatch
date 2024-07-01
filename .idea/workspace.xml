@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="63184bad-f41f-48f4-ac39-9416d1f9f863" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/calculos/CalculadoraDeTempo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Principal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,6 +26,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/Principal.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/br/com/alura/screenmatch/calculos/CalculadoraDeTempo.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/br/com/alura/screenmatch/modelos/Filme.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/br/com/alura/screenmatch/modelos/Serie.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/br/com/alura/screenmatch/modelos/Titulo.java" root0="SKIP_INSPECTION" />
