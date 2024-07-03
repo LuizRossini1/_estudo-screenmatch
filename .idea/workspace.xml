@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="63184bad-f41f-48f4-ac39-9416d1f9f863" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Principal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/alura/screenmatch/calculos/CalculadoraDeTempo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/screenmatch/calculos/CalculadoraDeTempo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,9 +23,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitRewordedCommitMessages">
+    <option name="commitMessagesMapping">
+      <RewordedCommitMessageMapping>
+        <option name="originalMessage" value="Revert &quot;calsse 'Episodios'&quot;&#10;&#10;This reverts commit 4ac078bdabd9cd63d039e6abc7c1c34de3d60e88." />
+        <option name="rewordedMessage" value="Revert &quot;classe 'Episodios'&quot;&#10;&#10;This reverts commit 4ac078bdabd9cd63d039e6abc7c1c34de3d60e88." />
+      </RewordedCommitMessageMapping>
+    </option>
+    <option name="currentCommit" value="1" />
+    <option name="onto" value="4ac078bdabd9cd63d039e6abc7c1c34de3d60e88" />
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/Principal.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/br/com/alura/screenmatch/calculos/CalculadoraDeTempo.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/br/com/alura/screenmatch/calculos/Classificavel.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/br/com/alura/screenmatch/calculos/FiltroRecomendacao.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/br/com/alura/screenmatch/modelos/Episodios.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/br/com/alura/screenmatch/modelos/Filme.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/br/com/alura/screenmatch/modelos/Serie.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/br/com/alura/screenmatch/modelos/Titulo.java" root0="SKIP_INSPECTION" />
