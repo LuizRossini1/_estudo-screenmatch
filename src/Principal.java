@@ -53,7 +53,7 @@ public class Principal {
         //Filme filmeDoPaulo = new Filme();
         var filmeDoPaulo = new Filme();
         filmeDoPaulo.setDuracaoEmMinutos(200);
-        filmeDoPaulo.setNome("Dogviile");
+        filmeDoPaulo.setNome("Dogville");
         filmeDoPaulo.setAnoDeLancamento(2003);
         filmeDoPaulo.avalia(10);
 
@@ -64,5 +64,6 @@ public class Principal {
         System.out.println("Tamanho da Lista: " +listaDeFilmes.size());
         System.out.println("Primeiro filme: " +listaDeFilmes.get(0).getNome());
         System.out.println(listaDeFilmes);
+        System.out.println("toString do Filme: " +listaDeFilmes.get(0).toString());
     }
 }
