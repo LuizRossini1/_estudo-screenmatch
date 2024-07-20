@@ -38,6 +38,8 @@ public class PrincipalComListas {
         System.out.println(buscaPorArtista);
 
         Collections.sort(lista);
+        System.out.println(lista);
+
 
     }
 }
