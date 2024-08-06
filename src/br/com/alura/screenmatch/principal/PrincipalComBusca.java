@@ -39,6 +39,5 @@ public class PrincipalComBusca {
         Titulo meuTitulo = new Titulo(meuTituloOmbd);
         System.out.println("Titulo já convertido");
         System.out.println(meuTitulo);
-
     }
 }
