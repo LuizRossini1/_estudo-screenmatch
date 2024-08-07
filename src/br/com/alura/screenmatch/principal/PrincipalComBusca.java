@@ -18,7 +18,7 @@ public class PrincipalComBusca {
         System.out.println("Digite um filme para busca: ");
         var busca = leitura.nextLine();
 
-        String endereco = "https://www.omdbapi.com/?t=" +busca+ "&apikey=82f2795b";
+        String endereco = "https://www.omdbapi.com/?t=" + busca + "&apikey=82f2795b";
 
         HttpClient client = HttpClient.newHttpClient();
         HttpRequest request = HttpRequest.newBuilder()
@@ -36,8 +36,15 @@ public class PrincipalComBusca {
         //Titulo meuTitulo = gson.fromJson(json, Titulo.class);
         TituloOmdb meuTituloOmbd = gson.fromJson(json, TituloOmdb.class);
         System.out.println(meuTituloOmbd);
-        Titulo meuTitulo = new Titulo(meuTituloOmbd);
-        System.out.println("Titulo já convertido");
-        System.out.println(meuTitulo);
+        try {
+            Titulo meuTitulo = new Titulo(meuTituloOmbd);
+            System.out.println("Titulo já convertido");
+            System.out.println(meuTitulo);
+        } catch (NumberFormatException exception) {
+            System.out.println("Aconteceu um erro: ");
+            System.out.println(exception.getMessage());
+        }
+
+        System.out.println("O programa finalizou corretamente!");
     }
 }
